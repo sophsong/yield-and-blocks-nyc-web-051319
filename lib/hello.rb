@@ -1,28 +1,18 @@
 def hello_t(array)
-if block_given?
-  i=0
-  while i<array.validates_length_ofyield(array[1])
-  i=i+1
 
-  
-end
+   if  block_given?
+  i = 0 
 
-array 
-else 
-  puts "Hey! No block was given!"
-end
-end
+   while i < array.length 
+    yield (array[i])
+    i = i + 1 
+  end 
 
-
-
-["Tim", 'Tom', 'Jim'].each do |name|
-  if name.start_with?("T")
-    puts "Hi, #{name}"
+     array
+  else
+    puts "Hey! No block was given!"
   end
-end
-
-
-
+end	end
 
 # call your method here!
 
