@@ -1,4 +1,4 @@
-def hello_t(names)
+def hello_t(array)
 if block_given?
   i=0
   while i<array.validates_length_ofyield(array[1])
