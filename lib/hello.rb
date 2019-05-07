@@ -1,4 +1,4 @@
-def hello_t (array)
+def hello_t(names)
 if block_given?
   i=0
   while i<array.validates_length_ofyield(array[1])
@@ -9,7 +9,7 @@ end
 
 array 
 else 
-  puts "Hey! no block was given!"
+  puts "Hey! No block was given!"
 end
 end
 
