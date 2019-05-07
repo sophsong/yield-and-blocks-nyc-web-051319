@@ -13,7 +13,6 @@ def hello_t(array)
   end
 end
 
-# call your method here!
 
 ["Tim", "Tom", "Jim"].each do |name|
   if name.start_with?("T")
